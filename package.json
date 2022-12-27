@@ -1,0 +1,17 @@
+{
+  "name": "time_bot",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "outlinevpn-api": "^1.7.1",
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.7.1"
+  }
+}
